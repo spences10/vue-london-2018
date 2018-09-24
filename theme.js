@@ -8,5 +8,8 @@ export default {
     text: '#34434b',
     background: '#fafafa',
     link: '#fof'
+  },
+  img: {
+    maxWidth: '70%'
   }
 }
