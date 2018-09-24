@@ -15,7 +15,7 @@ export default {
     link: '#fof'
   },
   img: {
-    maxWidth: '70%'
+    maxHEight: '100%'
   }
 }
 
