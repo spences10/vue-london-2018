@@ -4,9 +4,9 @@ export default {
   // extends the default theme
   ...theme,
   // custom colors
-  font: 'Nunito',
+  font: 'Old Standard TT',
   h1: {
-    fontFamily: 'Old Standard TT',
+    fontFamily: 'Nunito',
     fontWeight: 600
   },
   colors: {
