@@ -1,5 +1,7 @@
 export {default as theme} from './src/theme'
 import { Head, Appear } from 'mdx-deck'
+import nightOwl from "prism-react-renderer/themes/nightOwl"
+import { CodeSurfer } from "mdx-deck-code-surfer"
 
 <Head>
   <title>Vue London 2018</title>
@@ -76,6 +78,39 @@ import { Head, Appear } from 'mdx-deck'
 
 ---
 
+<CodeSurfer
+  theme={nightOwl}
+  lang="javascript"
+  steps={[
+    { lines: [4], notes: "Import the Apollo Client" },
+    { lines: [5], notes: "Import Vue Apollo for using Apollo with vue" },
+    { lines: [8, 12, 9, 10, 11], notes: "Create the provider and give it the URL" },
+    { lines: [15], notes: "Tell Vue to use Apollo" },
+    { lines: [16, 17,18,19,20], notes: "Mount Vue" }
+  ]}
+  code={`
+    import Vue from "vue"
+    import App from "./App"
+    import ApolloClient from "apollo-boost"
+    import VueApollo from "vue-apollo"
+    \n
+    const apolloProvider = new VueApollo({
+      defaultClient: new ApolloClient({
+        uri: "https://api.graphcms.com/simple/v1/awesomeTalksClone"
+      })
+    })
+    \n
+    Vue.use(VueApollo)
+    new Vue({
+      el: "#app",
+      provide: apolloProvider.provide(),
+      render: h => h(App)
+    })
+  `}
+/>
+
+---
+
 # The New Nuxt.js 2
 
 ## Sebastien Chopin
@@ -115,6 +150,14 @@ import { Head, Appear } from 'mdx-deck'
 <code>
   Sr. Dev Advocate. Founded Vue Vixens. GDE
 </code>
+
+---
+
+![](/images/parrot-or-guacamole.png)
+
+---
+
+![](/images/parrot-or-guacamole.png)
 
 ---
 
@@ -224,6 +267,8 @@ import { Head, Appear } from 'mdx-deck'
 - [https://twitter.com/jenlooper/status/1043149552927363078?s=19](https://twitter.com/jenlooper/status/1043149552927363078?s=19)
 - NativeScript
 - [https://play.nativescript.org/](https://play.nativescript.org/)
+
+https://slides.com/telerikdevrel/mlkit-nativescript#/
 
 ---
 - Diversity
