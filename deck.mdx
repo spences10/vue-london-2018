@@ -6,6 +6,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 <Head>
   <title>Vue London 2018</title>
   <link href="https://fonts.googleapis.com/css?family=Nunito|Old+Standard+TT:300" rel="stylesheet" />
+  <link rel="shortcut icon" href="/static/favicon.png" />
 </Head>
 
 # Vue London 2018 
@@ -82,29 +83,29 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 <CodeSurfer
   theme={nightOwl}
-  lang="javascript"
+  lang='javascript'
   steps={[
-    { lines: [4], notes: "Import the Apollo Client" },
-    { lines: [5], notes: "Import Vue Apollo for using Apollo with vue" },
-    { lines: [8, 12, 9, 10, 11], notes: "Create the provider and give it the URL" },
-    { lines: [15], notes: "Tell Vue to use Apollo" },
-    { lines: [16, 17,18,19,20], notes: "Mount Vue" }
+    { lines: [4], notes: 'Import the Apollo Client' },
+    { lines: [5], notes: 'Import Vue Apollo for using Apollo with vue' },
+    { lines: [8, 12, 9, 10, 11], notes: 'Create the provider and give it the URL' },
+    { lines: [15], notes: 'Tell Vue to use Apollo' },
+    { lines: [16, 17,18,19,20], notes: 'Mount Vue' }
   ]}
   code={`
-    import Vue from "vue"
-    import App from "./App"
-    import ApolloClient from "apollo-boost"
-    import VueApollo from "vue-apollo"
+    import Vue from 'vue'
+    import App from './App'
+    import ApolloClient from 'apollo-boost'
+    import VueApollo from 'vue-apollo'
     \n
     const apolloProvider = new VueApollo({
       defaultClient: new ApolloClient({
-        uri: "https://api.graphcms.com/simple/v1/awesomeTalksClone"
+        uri: 'https://api.graphcms.com/simple/v1/awesomeTalksClone'
       })
     })
     \n
     Vue.use(VueApollo)
     new Vue({
-      el: "#app",
+      el: '#app',
       provide: apolloProvider.provide(),
       render: h => h(App)
     })
