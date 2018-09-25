@@ -3,12 +3,14 @@ import theme from 'mdx-deck/themes'
 export default {
   // extends the default theme
   ...theme,
-  // custom colors
+  // fonts
+  monospace: '"Dank Mono", monospace',
   font: 'Old Standard TT',
   h1: {
     fontFamily: 'Nunito',
     fontWeight: 600
   },
+  // custom colors
   colors: {
     text: '#34434b',
     background: '#fafafa',
