@@ -1,15 +1,21 @@
-export {default as theme} from './src/theme'
+export { default as theme } from './src/theme'
 import { Head, Appear } from 'mdx-deck'
-import nightOwl from "prism-react-renderer/themes/nightOwl"
-import { CodeSurfer } from "mdx-deck-code-surfer"
+import nightOwl from 'prism-react-renderer/themes/nightOwl'
+import { CodeSurfer } from 'mdx-deck-code-surfer'
 
 <Head>
   <title>Vue London 2018</title>
-  <link href="https://fonts.googleapis.com/css?family=Nunito|Old+Standard+TT:300" rel="stylesheet" />
-  <link rel="shortcut icon" href={require("file-loader!./static/favicon.png")}/>
+  <link
+    href="https://fonts.googleapis.com/css?family=Nunito|Old+Standard+TT:300"
+    rel="stylesheet"
+  />
+  <link
+    rel="shortcut icon"
+    href={require('file-loader!./static/favicon.png')}
+  />
 </Head>
 
-# Vue London 2018 
+# Vue London 2018
 
 ## Hello Vue 👋
 
@@ -29,11 +35,13 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ---
 
-<img src={require("file-loader!./images/winner-winner-chicken-dinner.png")}/>
+<img
+  src={require('file-loader!./images/winner-winner-chicken-dinner.png')}
+/>
 
 ---
 
-<img src={require("file-loader!./images/vue-doodle.jpg")}/>
+<img src={require('file-loader!./images/vue-doodle.jpg')} />
 
 ---
 
@@ -47,9 +55,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ### Phil Hawksworth
 
-<code>
-  Head of Developer Relations at Netlify
-</code>
+<code>Head of Developer Relations at Netlify</code>
 
 ---
 
@@ -57,7 +63,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ---
 
-<img src={require("file-loader!./images/bastard-cold.png")}/>
+<img src={require('file-loader!./images/bastard-cold.png')} />
 
 ---
 
@@ -65,9 +71,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ## Roman Kuba
 
-<code>
-  Senior Software Engineer at Codeship
-</code>
+<code>Senior Software Engineer at Codeship</code>
 
 ---
 
@@ -75,21 +79,25 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ### Sara Vieira
 
-<code>
-  Developer Advocate🥑 at @YLDio
-</code>
+<code>Developer Advocate🥑 at @YLDio</code>
 
 ---
 
 <CodeSurfer
   theme={nightOwl}
-  lang='javascript'
+  lang="javascript"
   steps={[
     { lines: [4], notes: 'Import the Apollo Client' },
-    { lines: [5], notes: 'Import Vue Apollo for using Apollo with vue' },
-    { lines: [8, 12, 9, 10, 11], notes: 'Create the provider and give it the URL' },
+    {
+      lines: [5],
+      notes: 'Import Vue Apollo for using Apollo with vue'
+    },
+    {
+      lines: [8, 12, 9, 10, 11],
+      notes: 'Create the provider and give it the URL'
+    },
     { lines: [15], notes: 'Tell Vue to use Apollo' },
-    { lines: [16, 17,18,19,20], notes: 'Mount Vue' }
+    { lines: [16, 17, 18, 19, 20], notes: 'Mount Vue' }
   ]}
   code={`
     import Vue from 'vue'
@@ -118,9 +126,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ## Sebastien Chopin
 
-<code>
-  Nuxt.js Co-author and Founder of CMTY
-</code>
+<code>Nuxt.js Co-author and Founder of CMTY</code>
 
 ---
 
@@ -128,9 +134,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ## Jacob Schatz
 
-<code>
-  Staff Engineer of Data Science at GitLab
-</code>
+<code>Staff Engineer of Data Science at GitLab</code>
 
 ---
 
@@ -138,9 +142,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 
 ## Chris DeMars
 
-<code>
-  UI Developer - Google Developer Expert
-</code>
+<code>UI Developer - Google Developer Expert</code>
 
 ---
 
@@ -151,6 +153,7 @@ import { CodeSurfer } from "mdx-deck-code-surfer"
 ---
 
 ## We see Numeronyms every day
+
 <Appear>
   <div>2FA</div>
   <div>Two Factor Authentication</div>
@@ -164,23 +167,23 @@ Web team Champion for a11y
 
 ---
 
-# Human vs. AI 
+# Human vs. AI
 
 #### (Build a Mobile App with Vue.js, ML Kit, and NativeScript)
 
 ## Jen Looper
 
-<code>
-  Sr. Dev Advocate🥑. Founded Vue Vixens. GDE
-</code>
+<code>Sr. Dev Advocate🥑. Founded Vue Vixens. GDE</code>
 
 ---
 
-<img src={require("file-loader!./images/parrot-or-guacamole.png")}/>
+<img src={require('file-loader!./images/parrot-or-guacamole.png')} />
 
 ---
 
-<img src={require("file-loader!./images/labradoodle-or-fried-chicken.png")}/>
+<img
+  src={require('file-loader!./images/labradoodle-or-fried-chicken.png')}
+/>
 
 ---
 
@@ -192,9 +195,7 @@ Web team Champion for a11y
 
 ## Natalia Tepluhina
 
-<code>
-  Frontend developer and CTO of VueVixens
-</code>
+<code>Frontend developer and CTO of VueVixens</code>
 
 ---
 
@@ -204,15 +205,21 @@ Web team Champion for a11y
 
 ---
 
-<img height="800px" src={require("file-loader!./images/vue-logo.png")}/>
+<img
+  height="800px"
+  src={require('file-loader!./images/vue-logo.png')}
+/>
 
 ---
 
-<img height="800px" src={require("file-loader!./images/vue-logo.png")}/>
+<img
+  height="800px"
+  src={require('file-loader!./images/vue-logo.png')}
+/>
 
 ---
 
-<img src={require("file-loader!./images/vue-speed-challenge.png")}/>
+<img src={require('file-loader!./images/vue-speed-challenge.png')} />
 
 ---
 
@@ -220,9 +227,7 @@ Web team Champion for a11y
 
 ## Divya Sasidharan
 
-<code>
-  Advocating for Netlify
-</code>
+<code>Advocating for Netlify</code>
 
 ---
 
@@ -230,9 +235,7 @@ Web team Champion for a11y
 
 ## Jason Yu
 
-<code>
-  Software Engineer at The Hut Group
-</code>
+<code>Software Engineer at The Hut Group</code>
 
 ---
 
@@ -246,9 +249,7 @@ Web team Champion for a11y
 
 ## Ives van Hoorne
 
-<code>
-  Creator of codesandbox.io
-</code>
+<code>Creator of codesandbox.io</code>
 
 ---
 
@@ -256,7 +257,7 @@ Web team Champion for a11y
 
 ---
 
-<img src={require("file-loader!./images/sse.gif")}/>
+<img src={require('file-loader!./images/sse.gif')} />
 
 ---
 
@@ -264,24 +265,30 @@ Web team Champion for a11y
 
 ### Guillaume Chau
 
-<code>
-  Core Team Member of Vue.js
-</code>
+<code>Core Team Member of Vue.js</code>
 
 ---
 
 # 🤔
 
 <Appear>
-  <div><h2>a UI</h2></div>
-  <div><h3>(Grapical) User Interface</h3></div>
-  <div><h2>for a CLI</h2></div>
-  <div><h3>Command Line Interface</h3></div>
+  <div>
+    <h2>a UI</h2>
+  </div>
+  <div>
+    <h3>(Grapical) User Interface</h3>
+  </div>
+  <div>
+    <h2>for a CLI</h2>
+  </div>
+  <div>
+    <h3>Command Line Interface</h3>
+  </div>
 </Appear>
 
 ---
 
-<img src={require("file-loader!./images/vue-cli-ui.png")}/>
+<img src={require('file-loader!./images/vue-cli-ui.png')} />
 
 ---
 
@@ -293,9 +300,7 @@ Web team Champion for a11y
 
 ## Daniel Rosenwasser
 
-<code>
-  TypeScript Program Manager
-</code>
+<code>TypeScript Program Manager</code>
 
 ---
 
@@ -303,9 +308,7 @@ Web team Champion for a11y
 
 ## Evan You
 
-<code>
-  Creator of Vue.js
-</code>
+<code>Creator of Vue.js</code>
 
 ###### (remote)
 
@@ -324,15 +327,13 @@ Web team Champion for a11y
 
 ## Blake Newman
 
-<code>
-  Organiser + Vue.js Core Team Member
-</code>
+<code>Organiser + Vue.js Core Team Member</code>
 
 ---
 
 # Diversity
 
-<img src={require("file-loader!./images/diversity-tweet.png")}/>
+<img src={require('file-loader!./images/diversity-tweet.png')} />
 
 ---
 
