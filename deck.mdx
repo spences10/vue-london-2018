@@ -2,6 +2,7 @@ export { default as theme } from './src/index'
 import { Head, Appear } from 'mdx-deck'
 import nightOwl from 'prism-react-renderer/themes/nightOwl'
 import { CodeSurfer } from 'mdx-deck-code-surfer'
+import {Layout, LayoutNoFooter, BGImage} from './src/index'
 
 <Head>
   <title>Vue London 2018</title>
@@ -45,7 +46,9 @@ started the beginning of this month
 
 ---
 
-<img src={require('file-loader!./images/vue-doodle.jpg')} />
+export default LayoutNoFooter
+
+<BGImage src={require('file-loader!./images/vue-doodle.jpg')} />
 
 ---
 
