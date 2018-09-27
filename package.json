@@ -20,7 +20,7 @@
   "devDependencies": {
     "file-loader": "^2.0.0",
     "mdx-deck": "^1.7.7",
-    "prettier": "github:prettier/prettier",
+    "prettier": "^1.14.3",
     "pretty-quick": "^1.7.0"
   },
   "keywords": [],
