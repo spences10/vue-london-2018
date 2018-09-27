@@ -1,5 +1,5 @@
-import React, { Fragment } from "react";
-import styled from "styled-components";
+import React, { Fragment } from 'react'
+import styled from 'styled-components'
 
 const Wrapper = styled.main`
   width: 100vw;
@@ -9,7 +9,7 @@ const Wrapper = styled.main`
   flex-direction: row;
   justify-content: center;
   position: relative;
-`;
+`
 
 const Footer = styled.footer`
   font-size: 14px;
@@ -20,16 +20,16 @@ const Footer = styled.footer`
   border-top: 1px solid #dc5f53;
   display: flex;
   justify-content: space-between;
-`;
+`
 
 const Layout = ({ children }) => (
   <Fragment>
     <Wrapper>{children}</Wrapper>
     <Footer>
-      <span>Vue London 🇬🇧</span>
-      <span>@NIkkitaFTW</span>
+      <span>Vue London 2018</span>
+      <span>scottspence.me</span>
     </Footer>
   </Fragment>
-);
+)
 
-export default Layout;
+export default Layout
