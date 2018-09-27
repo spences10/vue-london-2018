@@ -8,4 +8,10 @@ Thanks to:
 
 ### Sara Vieira - great mdx-deck examples 👌
 
-### Sam Knows - for the competition I won
+### Sam Knows - for the competition I won 🏆
+
+### [Karmarama] - my employer for letting me go 🙏
+
+<!-- Links -->
+
+[karmarama]: https://www.karmarama.com
