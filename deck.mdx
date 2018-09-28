@@ -1,7 +1,8 @@
-export { default as theme } from './src/theme'
+export { default as theme } from './src/index'
 import { Head, Appear } from 'mdx-deck'
 import nightOwl from 'prism-react-renderer/themes/nightOwl'
 import { CodeSurfer } from 'mdx-deck-code-surfer'
+import { Layout, LayoutNoFooter, BGImage } from './src/index'
 
 <Head>
   <title>Vue London 2018</title>
@@ -10,8 +11,8 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
     rel="stylesheet"
   />
   <link
-    rel="shortcut icon"
     href={require('file-loader!./static/favicon.png')}
+    rel="shortcut icon"
   />
 </Head>
 
@@ -29,6 +30,10 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
   <em>web team n👀bie</em>
 </code>
 
+```notes
+started the beginning of this month
+```
+
 ---
 
 # WINNER 🏆
@@ -41,7 +46,10 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
 
 ---
 
-<img src={require('file-loader!./images/vue-doodle.jpg')} />
+<img
+  height="670px"
+  src={require('file-loader!./images/vue-doodle.jpg')}
+/>
 
 ---
 
@@ -63,7 +71,10 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
 
 ---
 
-<img src={require('file-loader!./images/bastard-cold.png')} />
+<img
+  height="670px"
+  src={require('file-loader!./images/bastard-cold.png')}
+/>
 
 ---
 
@@ -130,6 +141,12 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
 
 ---
 
+## Medium post:
+
+https://medium.com/@nuxt_js/nuxt-js-2-0-webpack-4-esm-modules-create-nuxt-app-and-more-6936ce80d94c
+
+---
+
 # Vuex in action
 
 ## Jacob Schatz
@@ -143,6 +160,12 @@ import { CodeSurfer } from 'mdx-deck-code-surfer'
 ## Chris DeMars
 
 <code>UI Developer - Google Developer Expert</code>
+
+---
+
+## Slides:
+
+https://www.slideshare.net/ChrisDeMars/i-cant-see-low-vision-a11y-users-115791577
 
 ---
 
@@ -177,11 +200,21 @@ Web team Champion for a11y
 
 ---
 
-<img src={require('file-loader!./images/parrot-or-guacamole.png')} />
+## Slides:
+
+https://slides.com/telerikdevrel/mlkit-nativescript#/
 
 ---
 
 <img
+  height="670px"
+  src={require('file-loader!./images/parrot-or-guacamole.png')}
+/>
+
+---
+
+<img
+  height="670px"
   src={require('file-loader!./images/labradoodle-or-fried-chicken.png')}
 />
 
@@ -206,15 +239,22 @@ Web team Champion for a11y
 ---
 
 <img
-  height="800px"
+  height="100px"
+  src={require('file-loader!./images/vue-logo.svg')}
+/>
+
+---
+
+<img
+  height="10000px"
   src={require('file-loader!./images/vue-logo.png')}
 />
 
 ---
 
 <img
-  height="800px"
-  src={require('file-loader!./images/vue-logo.png')}
+  height="10000px"
+  src={require('file-loader!./images/vue-logo.svg')}
 />
 
 ---
@@ -288,7 +328,10 @@ Web team Champion for a11y
 
 ---
 
-<img src={require('file-loader!./images/vue-cli-ui.png')} />
+<img
+  height="670px"
+  src={require('file-loader!./images/vue-cli-ui.png')}
+/>
 
 ---
 
@@ -337,15 +380,24 @@ Web team Champion for a11y
 
 ---
 
+<img
+  height="500px"
+  src={require('file-loader!./images/vue-logo.svg')}
+/>
+
+---
+
 ### Links:
 
-Accessibility talk a11y
+### Accessibility talk a11y
+
 [https://twitter.com/saltnburnem/status/1043145772991172608?s=19](https://twitter.com/saltnburnem/status/1043145772991172608?s=19)
-[Numeronym](https://en.wikipedia.org/wiki/Numeronym)
 
-AI vs. Human
-[https://twitter.com/jenlooper/status/1043149552927363078?s=19](https://twitter.com/jenlooper/status/1043149552927363078?s=19)
+Numeronym https://en.wikipedia.org/wiki/Numeronym
 
-NativeScript
+
+### NativeScript
+
 [https://play.nativescript.org/](https://play.nativescript.org/)
+
 https://slides.com/telerikdevrel/mlkit-nativescript#/
