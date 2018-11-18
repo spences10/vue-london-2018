@@ -1,6 +1,6 @@
 {
   "name": "vue-london-2018",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "file-loader": "2.0.0",
-    "mdx-deck": "1.7.10",
+    "mdx-deck": "1.7.14",
     "prettier": "github:prettier/prettier",
     "pretty-quick": "1.8.0"
   },
