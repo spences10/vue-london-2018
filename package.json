@@ -1,6 +1,10 @@
 {
   "name": "vue-london-2018",
+<<<<<<< HEAD
   "version": "1.0.16",
+=======
+  "version": "1.0.14",
+>>>>>>> Update dependency pretty-quick to v1.10.0
   "description": "",
   "main": "index.js",
   "scripts": {
